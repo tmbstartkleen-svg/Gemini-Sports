@@ -8,3 +8,11 @@ dist/
 *.log
 santera-local-backup.sql
 santera-remote-backup.sql
+
+.dev.vars
+.env
+.env.*
+node_modules/
+dist/
+.wrangler/
+.DS_Store
