@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+dist/
+.DS_Store
+*.log
+santera-local-backup.sql
+santera-remote-backup.sql

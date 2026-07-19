@@ -1,0 +1,130 @@
+.facility-map-page {
+  display: grid;
+  gap: 18px;
+}
+
+.facility-map-page__eyebrow {
+  margin: 0 0 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.facility-map-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.facility-map-stats > div {
+  padding: 16px;
+  border: 1px solid #d9dee7;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.facility-map-stats span,
+.facility-map-stats strong {
+  display: block;
+}
+
+.facility-map-stats strong {
+  margin-top: 6px;
+  font-size: 1.6rem;
+}
+
+.facility-map-filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.facility-map-filters label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.facility-map-filters input,
+.facility-map-filters select {
+  min-height: 40px;
+  padding: 8px 10px;
+  border: 1px solid #cfd6e0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.facility-map-filters button {
+  min-height: 40px;
+}
+
+.facility-map-shell {
+  min-height: 620px;
+  overflow: hidden;
+  border: 1px solid #d9dee7;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.facility-map,
+.facility-map-placeholder {
+  width: 100%;
+  height: 620px;
+}
+
+.facility-map-placeholder {
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.facility-marker-wrapper {
+  border: 0;
+  background: transparent;
+}
+
+.facility-marker {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #2563eb;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 35%);
+}
+
+.facility-map-popup {
+  min-width: 220px;
+}
+
+.facility-map-popup h3 {
+  margin: 0 0 8px;
+}
+
+.facility-map-popup button {
+  cursor: pointer;
+}
+
+.facility-map-page__error {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #fee2e2;
+}
+
+@media (max-width: 700px) {
+  .facility-map-stats,
+  .facility-map-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-map-shell,
+  .facility-map,
+  .facility-map-placeholder {
+    height: 520px;
+    min-height: 520px;
+  }
+}

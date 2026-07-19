@@ -1,0 +1,74 @@
+.opportunity-score {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.opportunity-score-ring {
+  --opportunity-progress: 0deg;
+
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      #0a1c16 57%,
+      transparent 59%
+    ),
+    conic-gradient(
+      #5ee3ad var(--opportunity-progress),
+      rgba(255, 255, 255, 0.08) 0
+    );
+}
+
+.opportunity-score-ring strong {
+  font-size: 22px;
+}
+
+.opportunity-score-copy span,
+.opportunity-score-copy strong,
+.opportunity-score-copy small {
+  display: block;
+}
+
+.opportunity-score-copy span {
+  color: #829e93;
+  font-size: 12px;
+}
+
+.opportunity-score-copy strong {
+  margin: 4px 0;
+  font-size: 18px;
+}
+
+.opportunity-score-copy small {
+  color: #9ab4a9;
+}
+
+.opportunity-score.compact {
+  gap: 9px;
+}
+
+.opportunity-score.compact
+.opportunity-score-ring {
+  width: 46px;
+  height: 46px;
+  flex-basis: 46px;
+}
+
+.opportunity-score.compact
+.opportunity-score-ring strong {
+  font-size: 14px;
+}
+
+.opportunity-score.compact
+.opportunity-score-copy strong {
+  font-size: 13px;
+}

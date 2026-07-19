@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "santera",
+  "compatibility_date": "2026-07-10",
+  "pages_build_output_dir": ".",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "santera-db",
+      "database_id": "1844d464-bf7b-4059-9320-96400a42d507"
+    }
+  ]
+}
