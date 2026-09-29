@@ -1,0 +1,12 @@
+TravAI Elite v7.4 — Autonomous Agent Workspace
+
+1) Start TravAI:
+   cd ~/Downloads/TravAI_v7400000000.0
+   npm start
+
+2) Open:
+   http://127.0.0.1:4783/?v=7400000000&view=agent-workspace&fresh=1
+
+3) Create a governed mission. Advance stages from the Mission Board.
+
+4) TravAI will stop at the approval barrier before consequential execution. Approve only after reviewing the mission scope and plan.

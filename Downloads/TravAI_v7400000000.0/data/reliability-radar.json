@@ -1,0 +1,15 @@
+{
+  "version": 150,
+  "builtAt": "2026-09-29T09:37:41.033Z",
+  "score": 50,
+  "metrics": {
+    "runs": 0,
+    "averageQuality": 0,
+    "successRate": 100,
+    "repairRate": 0,
+    "averageMinutes": 0
+  },
+  "signals": [
+    "Run more governed missions to establish a reliability baseline."
+  ]
+}

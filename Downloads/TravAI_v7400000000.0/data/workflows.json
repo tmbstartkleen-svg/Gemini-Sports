@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "workflows": [
+    {
+      "id": "feature-build",
+      "name": "Feature Build",
+      "description": "Plan, implement, verify, test, and review a production-quality feature.",
+      "mode": "deep",
+      "template": "Build this feature professionally: {{goal}}. Inspect the existing project first, minimize regressions, implement cleanly, run available tests, repair failures, and verify acceptance criteria."
+    },
+    {
+      "id": "bug-repair",
+      "name": "Bug Repair",
+      "description": "Diagnose a defect, identify root cause, repair it, and add verification evidence.",
+      "mode": "balanced",
+      "template": "Diagnose and repair this issue: {{goal}}. Reproduce or identify the root cause, make the smallest reliable fix, test it, check for regressions, and document the evidence."
+    },
+    {
+      "id": "project-audit",
+      "name": "Project Audit",
+      "description": "Review architecture, reliability, security boundaries, maintainability, and test health.",
+      "mode": "deep",
+      "template": "Audit this project with professional rigor: {{goal}}. Inspect architecture, risks, maintainability, performance, test health, and operational gaps. Make only clearly justified low-risk fixes unless broader changes are explicitly requested."
+    },
+    {
+      "id": "research-report",
+      "name": "Research & Report",
+      "description": "Research using available local knowledge and approved web access, then produce a structured report.",
+      "mode": "balanced",
+      "template": "Research and produce a decision-ready report on: {{goal}}. Distinguish evidence from assumptions, use available project knowledge, use web access only if enabled, and save the finished report in the workspace."
+    },
+    {
+      "id": "release-readiness",
+      "name": "Release Readiness",
+      "description": "Run a release-focused verification, repair bounded failures, and report go/no-go evidence.",
+      "mode": "deep",
+      "template": "Assess release readiness for: {{goal}}. Map the project, run available build/test/check scripts, diagnose and repair bounded failures, review changed files and unresolved risks, and produce a final release-readiness report."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "5000000000.0.0",
+  "createdAt": "2026-09-29T09:36:59.256Z",
+  "updatedAt": "2026-09-29T21:05:24.610Z",
+  "boot": {
+    "count": 3,
+    "lastBootAt": "2026-09-29T11:14:33.707Z",
+    "lastRecoveryAt": null
+  },
+  "runtime": {
+    "mode": "always_on",
+    "status": "running",
+    "heartbeatAt": "2026-09-29T21:05:24.610Z",
+    "ticks": 5981,
+    "lastTickMs": 3,
+    "consecutiveErrors": 0
+  },
+  "queue": [],
+  "schedules": [],
+  "agents": [],
+  "watchdog": {
+    "checks": [
+      {
+        "name": "TravAI Core",
+        "ok": true,
+        "status": 200,
+        "at": "2026-09-29T21:05:04.628Z"
+      },
+      {
+        "name": "Ollama",
+        "ok": true,
+        "status": 200,
+        "at": "2026-09-29T21:05:04.635Z",
+        "optional": true
+      }
+    ],
+    "restartsSuggested": 0,
+    "lastHealthyAt": "2026-09-29T21:05:04.635Z"
+  },
+  "remote": {
+    "enabled": false,
+    "tokenConfigured": false,
+    "submissions": 0,
+    "rejected": 0
+  },
+  "stats": {
+    "enqueued": 0,
+    "completed": 0,
+    "failed": 0,
+    "retried": 0,
+    "recovered": 0,
+    "scheduleFires": 0,
+    "agentRuns": 0
+  }
+}

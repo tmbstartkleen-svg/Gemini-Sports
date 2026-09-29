@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "lastEvaluation": {
+    "version": 1,
+    "evaluatedAt": "2026-09-29T09:37:40.885Z",
+    "score": 29,
+    "grade": "Needs setup",
+    "checks": [
+      {
+        "id": "ollama",
+        "label": "Local model service",
+        "ok": false,
+        "weight": 18,
+        "detail": "fetch failed",
+        "recommendation": "Start Ollama and verify the local API."
+      },
+      {
+        "id": "fast-model",
+        "label": "Fast model configured",
+        "ok": false,
+        "weight": 8,
+        "detail": "Auto-select",
+        "recommendation": "Assign a small fast model for everyday chat."
+      },
+      {
+        "id": "strong-model",
+        "label": "Strong model configured",
+        "ok": false,
+        "weight": 12,
+        "detail": "Auto-select",
+        "recommendation": "Assign Qwen 3.5 9B or another tool-capable reasoning model."
+      },
+      {
+        "id": "code-model",
+        "label": "Coding model configured",
+        "ok": false,
+        "weight": 12,
+        "detail": "Auto-select",
+        "recommendation": "Assign a tool-capable model for coding missions."
+      },
+      {
+        "id": "knowledge",
+        "label": "Workspace knowledge index",
+        "ok": false,
+        "weight": 10,
+        "detail": "Not built",
+        "recommendation": "Build the Knowledge index for project-aware answers."
+      },
+      {
+        "id": "map",
+        "label": "Project map",
+        "ok": true,
+        "weight": 8,
+        "detail": "2026-09-29T09:37:40.876Z",
+        "recommendation": "Run Project Doctor or rebuild the project map."
+      },
+      {
+        "id": "project",
+        "label": "Active project",
+        "ok": true,
+        "weight": 7,
+        "detail": "workspace-root",
+        "recommendation": "Select an active project in Projects."
+      },
+      {
+        "id": "checkpoints",
+        "label": "Recovery checkpoints",
+        "ok": false,
+        "weight": 5,
+        "detail": "0 checkpoint(s)",
+        "recommendation": "Create a checkpoint before major autonomous work."
+      },
+      {
+        "id": "memory",
+        "label": "Durable memory",
+        "ok": false,
+        "weight": 5,
+        "detail": "0 memory item(s)",
+        "recommendation": "Add durable personal/project context as you work."
+      },
+      {
+        "id": "routing",
+        "label": "Adaptive routing",
+        "ok": true,
+        "weight": 5,
+        "detail": "Enabled",
+        "recommendation": "Enable automatic routing for speed and quality."
+      },
+      {
+        "id": "code",
+        "label": "Coding execution permission",
+        "ok": false,
+        "weight": 5,
+        "detail": "Disabled",
+        "recommendation": "Enable only when you want autonomous coding commands."
+      },
+      {
+        "id": "snapshot",
+        "label": "Pre-write snapshots",
+        "ok": true,
+        "weight": 5,
+        "detail": "Enabled",
+        "recommendation": "Keep snapshots enabled for safer autonomous edits."
+      },
+      {
+        "id": "semantic",
+        "label": "Semantic retrieval",
+        "ok": true,
+        "weight": 5,
+        "detail": "Enabled",
+        "recommendation": "Enable semantic retrieval for deeper project awareness."
+      }
+    ],
+    "recommendations": [
+      "Start Ollama and verify the local API.",
+      "Assign Qwen 3.5 9B or another tool-capable reasoning model.",
+      "Assign a tool-capable model for coding missions.",
+      "Build the Knowledge index for project-aware answers.",
+      "Assign a small fast model for everyday chat.",
+      "Create a checkpoint before major autonomous work."
+    ]
+  },
+  "lastBrief": null
+}

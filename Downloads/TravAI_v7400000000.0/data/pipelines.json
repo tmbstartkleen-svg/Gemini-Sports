@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "pipelines": [
+    {
+      "id": "ship-feature",
+      "name": "Ship Feature",
+      "description": "Build a feature, validate the project, then perform release-readiness review.",
+      "stages": [
+        {
+          "workflowId": "feature-build",
+          "name": "Build feature"
+        },
+        {
+          "workflowId": "release-readiness",
+          "name": "Release readiness"
+        }
+      ]
+    },
+    {
+      "id": "repair-and-verify",
+      "name": "Repair & Verify",
+      "description": "Diagnose a bug, repair it, then run release-focused verification.",
+      "stages": [
+        {
+          "workflowId": "bug-repair",
+          "name": "Repair defect"
+        },
+        {
+          "workflowId": "release-readiness",
+          "name": "Verify release"
+        }
+      ]
+    },
+    {
+      "id": "audit-and-report",
+      "name": "Audit & Report",
+      "description": "Audit a project and produce a decision-ready report.",
+      "stages": [
+        {
+          "workflowId": "project-audit",
+          "name": "Project audit"
+        },
+        {
+          "workflowId": "research-report",
+          "name": "Report findings"
+        }
+      ]
+    }
+  ]
+}

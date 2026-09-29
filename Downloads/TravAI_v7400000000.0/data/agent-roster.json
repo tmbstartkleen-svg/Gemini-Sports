@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "agents": [
+    {
+      "id": "planner",
+      "name": "Planner",
+      "role": "Decomposes goals into dependency-aware plans",
+      "tier": "control"
+    },
+    {
+      "id": "architect",
+      "name": "Architect",
+      "role": "Maps project structure and solution design",
+      "tier": "analysis"
+    },
+    {
+      "id": "risk",
+      "name": "Risk Auditor",
+      "role": "Identifies permission, regression, and safety risks",
+      "tier": "analysis"
+    },
+    {
+      "id": "builder",
+      "name": "Builder",
+      "role": "Implements code and project changes",
+      "tier": "execution"
+    },
+    {
+      "id": "researcher",
+      "name": "Researcher",
+      "role": "Investigates project knowledge and public sources",
+      "tier": "execution"
+    },
+    {
+      "id": "verifier",
+      "name": "Verifier",
+      "role": "Checks step-level evidence and correctness",
+      "tier": "quality"
+    },
+    {
+      "id": "qa",
+      "name": "QA Reviewer",
+      "role": "Scores completeness, maintainability, and verification",
+      "tier": "quality"
+    },
+    {
+      "id": "reviewer",
+      "name": "Risk Reviewer",
+      "role": "Checks regressions and unresolved operational risks",
+      "tier": "quality"
+    },
+    {
+      "id": "mission-director",
+      "name": "Mission Director",
+      "role": "Coordinates hierarchical teams, acceptance criteria, dependencies, and execution budget.",
+      "tier": "control"
+    },
+    {
+      "id": "tech-lead",
+      "name": "Technical Lead",
+      "role": "Owns implementation strategy, code quality, and engineering tradeoffs.",
+      "tier": "engineering"
+    },
+    {
+      "id": "memory-curator",
+      "name": "Memory Curator",
+      "role": "Maintains project-specific durable memory and removes low-value repetition.",
+      "tier": "knowledge"
+    },
+    {
+      "id": "recovery-controller",
+      "name": "Recovery Controller",
+      "role": "Owns restart recovery, stale missions, checkpoints, and rollback evidence.",
+      "tier": "recovery"
+    }
+  ]
+}

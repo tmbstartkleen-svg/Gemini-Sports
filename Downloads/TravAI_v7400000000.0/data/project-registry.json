@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "activeProjectId": "workspace-root",
+  "projects": [
+    {
+      "id": "workspace-root",
+      "path": "",
+      "name": "Workspace Root",
+      "frameworks": [],
+      "files": 1,
+      "updatedAt": "2026-09-29T09:37:41.033Z"
+    },
+    {
+      "id": "7cb775c73a",
+      "path": "multimodal",
+      "name": "multimodal",
+      "frameworks": [],
+      "files": 0,
+      "updatedAt": "2026-09-29T09:37:41.033Z"
+    },
+    {
+      "id": "d1cf0f0d72",
+      "path": "v2000",
+      "name": "v2000",
+      "frameworks": [],
+      "files": 0,
+      "updatedAt": "2026-09-29T09:37:41.033Z"
+    },
+    {
+      "id": "6e786b5419",
+      "path": "v5000",
+      "name": "v5000",
+      "frameworks": [],
+      "files": 0,
+      "updatedAt": "2026-09-29T09:37:41.033Z"
+    }
+  ]
+}

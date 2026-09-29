@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "lastPrepare": null,
+  "lastSummary": {
+    "version": 1,
+    "at": "2026-09-29T09:37:40.958Z",
+    "project": {
+      "files": 0,
+      "languages": {},
+      "scripts": {},
+      "builtAt": "2026-09-29T09:37:40.876Z"
+    },
+    "regression": {
+      "status": "missing",
+      "message": "No regression baseline captured yet."
+    },
+    "brain": {
+      "builtAt": null,
+      "projects": 0,
+      "global": {}
+    },
+    "improvement": {
+      "builtAt": null,
+      "rules": []
+    },
+    "capabilities": {
+      "at": "2026-09-29T09:37:40.958Z",
+      "offline": true,
+      "models": [],
+      "permissions": {
+        "code": false,
+        "packages": false,
+        "web": false,
+        "delete": false
+      },
+      "features": {
+        "memory": true,
+        "knowledge": true,
+        "checkpoints": true,
+        "regression": true,
+        "autopilot": true,
+        "executive": true,
+        "commandIntelligence": true,
+        "contextCapsules": true,
+        "artifactRegistry": true,
+        "timeline": true
+      }
+    },
+    "missions": {
+      "active": 0,
+      "total": 0
+    },
+    "approvals": {
+      "pending": 0
+    },
+    "checkpoints": {
+      "count": 0
+    }
+  }
+}

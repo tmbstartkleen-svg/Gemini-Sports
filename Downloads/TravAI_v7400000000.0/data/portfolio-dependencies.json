@@ -1,0 +1,44 @@
+{
+  "version": 150,
+  "builtAt": "2026-09-29T09:37:41.025Z",
+  "projects": [
+    {
+      "id": "workspace-root",
+      "name": "Workspace Root",
+      "path": "",
+      "packageName": "Workspace Root",
+      "dependencyCount": 0,
+      "frameworks": []
+    },
+    {
+      "id": "7cb775c73a",
+      "name": "multimodal",
+      "path": "multimodal",
+      "packageName": "multimodal",
+      "dependencyCount": 0,
+      "frameworks": []
+    },
+    {
+      "id": "d1cf0f0d72",
+      "name": "v2000",
+      "path": "v2000",
+      "packageName": "v2000",
+      "dependencyCount": 0,
+      "frameworks": []
+    },
+    {
+      "id": "6e786b5419",
+      "name": "v5000",
+      "path": "v5000",
+      "packageName": "v5000",
+      "dependencyCount": 0,
+      "frameworks": []
+    }
+  ],
+  "edges": [],
+  "counts": {
+    "projects": 4,
+    "edges": 0,
+    "connected": 0
+  }
+}

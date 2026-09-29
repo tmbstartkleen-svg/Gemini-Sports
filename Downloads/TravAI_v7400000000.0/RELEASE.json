@@ -1,0 +1,14 @@
+{
+  "name": "TravAI Elite v7.1 — Deep Local Knowledge + RAG",
+  "version": "7100000000.0.0",
+  "baseVersion": "7000000000.0.0",
+  "includes": ["v7.0 Daily Driver control plane", "v6.95 Evaluation Lab", "v6.9 Recovery", "v6.8 Native Mac Operator"],
+  "offlineFirst": true,
+  "lineLevelCitations": true,
+  "sha256Provenance": true,
+  "memoryAwareRetrieval": true,
+  "localOllamaSynthesis": true,
+  "cloudSynthesis": false,
+  "noArbitraryShell": true,
+  "noProjectMutation": true
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "lastScan": "2026-09-29T09:37:41.035Z",
+  "issues": [
+    {
+      "type": "no_checkpoint",
+      "severity": "info",
+      "suggested": "create_checkpoint_before_major_work"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "stale": 0,
+    "failed": 0,
+    "pendingApprovals": 0
+  }
+}

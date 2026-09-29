@@ -1,0 +1,71 @@
+{
+  "version": 250,
+  "at": "2026-09-29T09:37:41.036Z",
+  "minimum": 88,
+  "projects": [
+    {
+      "projectId": "workspace-root",
+      "name": "Workspace Root",
+      "path": "",
+      "score": 67,
+      "status": "blocked",
+      "contract": null,
+      "governanceScore": 63,
+      "decision": "hold",
+      "blockers": [
+        "Release score below policy minimum"
+      ]
+    },
+    {
+      "projectId": "7cb775c73a",
+      "name": "multimodal",
+      "path": "multimodal",
+      "score": 67,
+      "status": "blocked",
+      "contract": null,
+      "governanceScore": 63,
+      "decision": "hold",
+      "blockers": [
+        "Release score below policy minimum"
+      ]
+    },
+    {
+      "projectId": "d1cf0f0d72",
+      "name": "v2000",
+      "path": "v2000",
+      "score": 67,
+      "status": "blocked",
+      "contract": null,
+      "governanceScore": 63,
+      "decision": "hold",
+      "blockers": [
+        "Release score below policy minimum"
+      ]
+    },
+    {
+      "projectId": "6e786b5419",
+      "name": "v5000",
+      "path": "v5000",
+      "score": 67,
+      "status": "blocked",
+      "contract": null,
+      "governanceScore": 63,
+      "decision": "hold",
+      "blockers": [
+        "Release score below policy minimum"
+      ]
+    }
+  ],
+  "summary": {
+    "release": 0,
+    "hold": 4
+  },
+  "signals": {
+    "proofCoverage": 0,
+    "provenanceCoverage": 100,
+    "reliability": 50,
+    "security": 100,
+    "pendingApprovals": 0,
+    "recoveryIssues": 1
+  }
+}

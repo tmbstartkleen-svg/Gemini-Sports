@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "recipes": [
+    {
+      "id": "safe-feature",
+      "name": "Safe Feature Delivery",
+      "category": "coding",
+      "instructions": "Map the project, identify the smallest coherent change surface, checkpoint before edits, implement, run available tests, repair bounded failures, compare regression baseline, and record evidence."
+    },
+    {
+      "id": "root-cause",
+      "name": "Root Cause Repair",
+      "category": "debugging",
+      "instructions": "Reproduce or isolate the symptom, gather evidence, identify the root cause before editing, make the narrowest reliable fix, test the exact failure path, then run broader regression checks."
+    },
+    {
+      "id": "decision-brief",
+      "name": "Decision Brief",
+      "category": "analysis",
+      "instructions": "Separate facts, assumptions, constraints, options, tradeoffs, risks, and recommendation criteria. Preserve the final decision and rationale in the decision ledger."
+    }
+  ]
+}

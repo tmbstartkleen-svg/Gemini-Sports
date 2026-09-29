@@ -1,0 +1,25 @@
+{
+  "version": 150,
+  "at": "2026-09-29T09:37:41.015Z",
+  "readiness": 100,
+  "activeMissions": [],
+  "blockers": [],
+  "portfolio": {
+    "projects": 4,
+    "missions": 0,
+    "programs": 0,
+    "releaseTrains": 0,
+    "contracts": 0,
+    "goals": 0
+  },
+  "watch": {
+    "version": 1,
+    "enabled": false,
+    "lastScan": null,
+    "lastChange": null,
+    "fingerprint": "",
+    "changedFiles": [],
+    "cycles": 0
+  },
+  "modelRanking": []
+}

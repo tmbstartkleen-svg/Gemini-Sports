@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "at": "2026-09-29T09:37:41.034Z",
+  "status": "ok",
+  "score": 100,
+  "findings": [],
+  "counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  }
+}

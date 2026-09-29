@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "engineering-focus",
+      "name": "Engineering Focus",
+      "description": "Coding and debugging context for the active project.",
+      "projectId": "",
+      "instructions": "Prioritize architecture awareness, minimal diffs, tests, root-cause debugging, and concrete verification.",
+      "paths": [],
+      "memoryIds": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "teams": [
+    {
+      "id": "control",
+      "name": "Control Team",
+      "lead": "mission-director",
+      "agents": [
+        "mission-director",
+        "planner",
+        "risk"
+      ],
+      "purpose": "Owns mission scope, risk, dependencies, and acceptance."
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering Team",
+      "lead": "tech-lead",
+      "agents": [
+        "tech-lead",
+        "builder",
+        "verifier"
+      ],
+      "purpose": "Implements, tests, diagnoses, and repairs software changes."
+    },
+    {
+      "id": "knowledge",
+      "name": "Knowledge Team",
+      "lead": "memory-curator",
+      "agents": [
+        "memory-curator",
+        "researcher"
+      ],
+      "purpose": "Retrieves project context and consolidates durable knowledge."
+    },
+    {
+      "id": "quality",
+      "name": "Quality Team",
+      "lead": "qa",
+      "agents": [
+        "qa",
+        "reviewer"
+      ],
+      "purpose": "Performs independent evidence-backed final review."
+    },
+    {
+      "id": "recovery",
+      "name": "Recovery Team",
+      "lead": "recovery-controller",
+      "agents": [
+        "recovery-controller"
+      ],
+      "purpose": "Detects interrupted work, stale state, and rollback paths."
+    }
+  ]
+}

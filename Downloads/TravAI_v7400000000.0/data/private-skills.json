@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "id": "code-review",
+      "name": "Deep Code Review",
+      "description": "Audit a project for bugs, maintainability, performance, and test gaps.",
+      "template": "Perform a deep professional code review of the active project. Inspect architecture, likely defects, maintainability, performance, security boundaries, and test coverage. Make only justified low-risk fixes unless broader changes are explicitly requested. Verify findings with concrete evidence."
+    },
+    {
+      "id": "build-feature",
+      "name": "Production Feature Build",
+      "description": "Plan, build, test, repair, and verify a requested feature.",
+      "template": "Build this feature professionally: {{goal}}. Inspect the existing project first, design the smallest maintainable solution, implement it, test all relevant behavior, diagnose and repair failures, perform regression checks, and do not claim completion until acceptance evidence exists."
+    },
+    {
+      "id": "project-brief",
+      "name": "Project Executive Brief",
+      "description": "Summarize current project status, risks, changes, and next actions.",
+      "template": "Create a concise executive project brief for the active project using local project knowledge, recent mission history, test status, risks, and open work. Include what changed, what is working, blockers, and the highest-value next actions."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "mode": "balanced",
+  "maxChangedFilesPerMission": 80,
+  "maxDeletedFilesPerMission": 10,
+  "requireApprovalForPackageInstall": true,
+  "requireApprovalForWebFetch": true,
+  "requireApprovalForDelete": true
+}

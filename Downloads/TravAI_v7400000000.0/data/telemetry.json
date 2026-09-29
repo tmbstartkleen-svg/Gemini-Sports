@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "startedAt": "2026-09-29T09:36:59.231Z",
+  "calls": 0,
+  "localCalls": 0,
+  "cloudCalls": 0,
+  "promptTokens": 0,
+  "outputTokens": 0,
+  "totalModelMs": 0,
+  "errors": 0,
+  "byModel": {},
+  "recent": []
+}

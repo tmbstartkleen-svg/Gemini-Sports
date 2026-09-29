@@ -1,0 +1,16 @@
+{
+  "name": "travai",
+  "version": "7400000000.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check autonomous-agent-workspace-v7400000000.mjs && node --check multimodal-intelligence-v7300000000.mjs && node --check deploy-control-v7200000000.mjs && node --check deep-local-knowledge-v7100000000.mjs && node --check daily-driver-v7000000000.mjs && node --check intelligence-evaluation-lab-v6950000000.mjs && node --check reliability-recovery-v6900000000.mjs && node --check native-mac-operator-v6800000000.mjs && node --check unified-engineering-loop-v6700000000.mjs && node --check repository-intelligence-v6600000000.mjs && node --check model-tournament-v6400000000.mjs && node --check autonomous-coding-team-v6500000000.mjs && node --check elite-coding-workstation-v6300000000.mjs && node --check elite-ui-stability-v6210000000.mjs && node --check public/elite-shell.js && node --check elite-capability-v6200000000.mjs && node --check elite-os-v6000000000.mjs && node --check always-on-runtime-v5000000000.mjs && node --check memory-workstation-os-v4000000000.mjs && node --check tool-connector-os-v3000000000.mjs && node --check model-orchestrator-v2000000000.mjs && node --check hybrid-intelligence-v1000000000.mjs && node --check coding-operator-v500000000.mjs && node --check software-agent-v250000000.mjs && node --check autonomous-engineering-v100000000.mjs && node --check code-intelligence-v50000000.mjs && node --check engineering-intelligence-v20000000.mjs && node --check engineering-intelligence-v10000000.mjs && node --check public/app.js",
+    "doctor": "node doctor.mjs",
+    "verify": "npm run check && node doctor.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "TravAI Elite v7.4 - Autonomous Agent Workspace"
+}

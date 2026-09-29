@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "lastRun": "2026-09-29T09:37:40.954Z",
+  "status": "needs_attention",
+  "mapBuiltAt": "2026-09-29T09:37:40.876Z",
+  "indexBuiltAt": null,
+  "indexChunks": 0,
+  "mapFiles": 0,
+  "issues": [
+    "Knowledge index is empty."
+  ]
+}

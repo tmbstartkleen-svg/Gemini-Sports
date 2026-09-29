@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "lastRun": "2026-09-29T09:37:40.950Z",
+  "score": 29,
+  "grade": "Needs attention",
+  "ollama": false,
+  "names": [],
+  "assignments": {
+    "fast": "",
+    "strong": "",
+    "code": ""
+  },
+  "checks": [
+    {
+      "id": "ollama",
+      "label": "Local model engine",
+      "ok": false,
+      "detail": "fetch failed"
+    },
+    {
+      "id": "fast",
+      "label": "Fast model assigned",
+      "ok": false,
+      "detail": "Not assigned"
+    },
+    {
+      "id": "strong",
+      "label": "Strong model assigned",
+      "ok": false,
+      "detail": "Not assigned"
+    },
+    {
+      "id": "code",
+      "label": "Code model assigned",
+      "ok": false,
+      "detail": "Not assigned"
+    },
+    {
+      "id": "offline",
+      "label": "Core offline path",
+      "ok": false,
+      "detail": "Chat, memory, workspace, missions, and local tools can operate without cloud when models are present."
+    },
+    {
+      "id": "workspace",
+      "label": "Workspace accessible",
+      "ok": true,
+      "detail": "/mnt/data/v74build/TravAI_v7300000000.0/workspace"
+    },
+    {
+      "id": "cloudOptional",
+      "label": "Cloud is optional",
+      "ok": true,
+      "detail": "Cloud disabled; system remains local-first."
+    }
+  ]
+}

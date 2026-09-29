@@ -1,0 +1,84 @@
+{
+  "version": 250,
+  "at": "2026-09-29T09:37:41.029Z",
+  "maxParallel": 2,
+  "activeWorkspaces": 0,
+  "workspaces": [
+    {
+      "id": "ws-workspace-root",
+      "projectId": "workspace-root",
+      "name": "Workspace Root",
+      "path": "",
+      "activeMissions": 0,
+      "lastQuality": null,
+      "assignedAgents": [
+        "planner",
+        "architect",
+        "risk",
+        "builder",
+        "researcher",
+        "verifier",
+        "qa",
+        "reviewer"
+      ],
+      "status": "standby"
+    },
+    {
+      "id": "ws-7cb775c73a",
+      "projectId": "7cb775c73a",
+      "name": "multimodal",
+      "path": "multimodal",
+      "activeMissions": 0,
+      "lastQuality": null,
+      "assignedAgents": [
+        "planner",
+        "architect",
+        "risk",
+        "builder",
+        "researcher",
+        "verifier",
+        "qa",
+        "reviewer"
+      ],
+      "status": "standby"
+    },
+    {
+      "id": "ws-d1cf0f0d72",
+      "projectId": "d1cf0f0d72",
+      "name": "v2000",
+      "path": "v2000",
+      "activeMissions": 0,
+      "lastQuality": null,
+      "assignedAgents": [
+        "planner",
+        "architect",
+        "risk",
+        "builder",
+        "researcher",
+        "verifier",
+        "qa",
+        "reviewer"
+      ],
+      "status": "standby"
+    },
+    {
+      "id": "ws-6e786b5419",
+      "projectId": "6e786b5419",
+      "name": "v5000",
+      "path": "v5000",
+      "activeMissions": 0,
+      "lastQuality": null,
+      "assignedAgents": [
+        "planner",
+        "architect",
+        "risk",
+        "builder",
+        "researcher",
+        "verifier",
+        "qa",
+        "reviewer"
+      ],
+      "status": "standby"
+    }
+  ]
+}
